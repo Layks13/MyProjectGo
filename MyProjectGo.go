@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 const (
-	Sunday1 = iota
+	Sunday = iota
 	Monday
 	Tuesday
 	Wednesday
@@ -13,7 +13,7 @@ const (
 )
 
 func main() {
-	fmt.Println(Sunday1)
+	fmt.Println(Sunday)
 	fmt.Println(Monday)
 	fmt.Println(Tuesday)
 	fmt.Println(Wednesday)
